@@ -9,10 +9,10 @@ public class Test {
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext(
 				"config.xml"
 				);
-		Employee emp = (Employee) ctx.getBean("emp");
+		Employee empl = (Employee) ctx.getBean("emp");
 		
-		System.out.println("Employee ID: "+emp.getId());
-		System.out.println("Employee Name: "+emp.getName());
+		System.out.println("Employee ID: "+empl.getId());
+		System.out.println("Employee Name: "+empl.getName());
 
 	}
 
